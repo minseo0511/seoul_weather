@@ -22,7 +22,7 @@ humidity = data["main"]["temp"]
 # description
 description = data["weather"][0]["description"]
 
-timezone = datetime.now().strftime("%Y-%m-%d %H,%M,%S")
+timezone = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print(temp, humidity, description)
 
 # 위의 4개의 데이터를 가지는 csv파일 생성!!
